@@ -1,14 +1,7 @@
 from time import sleep
 import os
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
 import PyPDF2
-import requests
-
-FILE_SAVER_MIN_JS_URL = "https://raw.githubusercontent.com/eligrey/FileSaver.js/master/dist/FileSaver.min.js"
-
-file_saver_min_js = requests.get(FILE_SAVER_MIN_JS_URL).content
 
 
 class PDFBot():
@@ -109,8 +102,9 @@ class PDFBot():
                     # Wait for download to complete...
                     self.download_wait("/home/frank/Documents/Springer_Books", 20)
                 except:
-                    self.search_button = self.driver.find_element_by_xpath("// *[ @ id = 'main-content'] / article[1] / "
-                                                                           "div / div / div[2] / div[1] / a")
+                    self.search_button = self.driver.find_element_by_xpath(
+                        "// *[ @ id = 'main-content'] / article[1] / "
+                        "div / div / div[2] / div[1] / a")
                     books_downloaded += 1
                     # Using CSS selector
                     # Create the variable for the button to click - BE MINDFUL OF THE INTERNAL QUOTES / MAKE THEM SINGLE
@@ -128,8 +122,6 @@ class PDFBot():
 
                 print("Unable to download this book...")
                 pass
-
-
 
             # Close current window
             self.driver.close()
