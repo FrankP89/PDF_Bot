@@ -24,6 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pdf_bot.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -68,10 +69,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="557" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587776735473" />
-    <state x="396" y="124" width="1249" height="807" key="CommitChangelistDialog2" timestamp="1587965767693">
+    <state x="396" y="124" width="1249" height="807" key="CommitChangelistDialog2" timestamp="1587965876895">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="396" y="124" width="1249" height="807" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1587965767693" />
+    <state x="396" y="124" width="1249" height="807" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1587965876895" />
     <state x="882" y="339" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587905646013">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -104,5 +105,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="627" y="285" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587965167502" />
+    <state x="793" y="448" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587965786564">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="793" y="448" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1587965786564" />
   </component>
 </project>
